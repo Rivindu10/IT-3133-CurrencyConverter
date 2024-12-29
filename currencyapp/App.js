@@ -38,3 +38,37 @@ export default function App() {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#FFFFE0',
+    padding: 16,
+  },
+  heading: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 20,
+    color: '#00008b', 
+    textDecorationLine: 'underline', 
+  },
+  input: {
+    height: 40,
+    width: '80%',
+    borderColor: '#ccc',
+    borderWidth: 1,
+    borderRadius: 5,
+    paddingHorizontal: 10,
+    marginBottom: 20,
+    backgroundColor: '#fff',
+    fontWeight: 'bold',
+  },
+  result: {
+    marginTop: 20,
+    fontSize: 18,
+    color: '#00008b', 
+    fontWeight: 'bold',
+  },
+});
